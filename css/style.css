@@ -1,0 +1,358 @@
+body {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-style: "Roboto";
+    margin: 0;
+}
+
+h1, h2, h3, ul, p {
+    margin: 0;
+    padding: 0;
+} 
+
+img {
+    max-width: 100%;
+}
+
+.contenitore {
+    background-color: #68A691;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 86px 0 65px;
+    font-family: "Roboto";
+    height: 90px;
+    max-width: 100%;
+}
+
+header .home
+{color: black;
+font-size: 36px;
+text-decoration: none
+;}
+
+
+
+header nav ul {
+display: flex;
+gap: 15px; 
+list-style-type: none;
+font-family: "Roboto"; 
+
+}
+
+header a {
+color: black;
+font-size: 18px;
+}
+
+.testidue h1
+{
+color: #387B64;
+text-align: left;
+font-size: 90px; 
+line-height: 100%;
+margin-left: 161px;
+margin-bottom: 105px;
+margin-top: 289px;
+font-family: "Roboto";
+}
+
+.testidue h2
+
+{color: #387B64;
+    text-align: left;
+    font: size 30px;
+    font-weight: normal;
+    margin-top: 150px;
+    margin-left: 206px;
+    font-family: "Roboto";
+}
+
+.primafoto
+{display: flex;}
+
+.primafoto img
+{
+height: 430px;
+width: 329px;
+object-fit: cover;
+font-family: "Roboto";
+}
+
+.fotoiniziale
+{
+margin: auto;    
+}
+
+.titoloinaugurazione 
+{
+    color: #387B64;
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    margin-top: 218px;
+    font-family:"Roboto";
+}
+
+.testoinaugurazione
+{
+justify-content: center;
+margin: 35px 200px 0 200px;
+color: #000;
+font-family: "Roboto";
+font-size: 20px;
+line-height: 30px;
+}
+
+footer nav ul
+{
+display: flex;
+ gap: 15px; 
+list-style-type: none;
+font-family: "Roboto"; 
+justify-content: center;
+margin-top: 280px;
+margin-bottom: 170px;
+}
+
+.home-artisti {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-artisti h1
+{
+color: #387B64;
+font-size: 50px;
+font-weight: normal;
+margin-top: 103px;
+font-family: "Roboto";
+text-align: center;
+margin-bottom: 65px;
+}
+
+.home-artisti p {
+color: #000;
+font-family:"Roboto";
+font-size: 20px;
+line-height: 30px;
+width: 795px}
+
+section.artisticonfoto
+{
+max-width: 1300px;
+margin: 50px 180px 180px 180px;
+gap: 120px; 
+display: grid;
+grid-template-columns: repeat(3, 3fr);
+}
+
+section.artisticonfoto h2 a
+{
+display: flex;
+text-align: center;
+color: #387B64;
+justify-content: center;
+text-decoration: none;
+margin: auto;
+align-items: center;
+width: 100%;
+font-size: 20px;
+}
+
+section.artisticonfoto img
+{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+section.artisticonfoto h2
+{
+font-family: "Roboto";
+text-align: left;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+padding-bottom: 37px;
+}
+
+section.artisticonfoto div{
+    display: flex;
+    flex-direction: column;
+}
+
+.fotodue
+{
+    width: 224px;
+height: 294px;
+flex-shrink: 0;
+}
+.titolomostra
+{color: #387B64;
+text-align: center;
+font-size: 50px;
+font-weight: normal;
+margin-top: 103px;
+ font-family: "Roboto";}
+
+.primoparagrafo
+{justify-content: center;
+margin: auto;
+color: #000;
+font-family: "Roboto";
+font-size: 20px;
+line-height: 30px;
+margin-top: 40px;
+width: 795px;
+line-height: 1.5}
+
+.secondoparagrafo
+{justify-content: center;
+margin: auto;
+color: #000;
+font-family: "Roboto";
+font-size: 20px;
+line-height: 30px;
+margin-top: 40px;
+width: 795px;
+line-height: 1.5 }
+
+.terzoparagrafo
+{justify-content: center;
+margin: auto;
+color: #000;
+font-family: "Roboto";
+font-size: 20px;
+line-height: 30px;
+margin-top: 40px;
+width: 795px;
+line-height: 1.5 }
+
+ .quartoparagrafo
+{justify-content: center;
+margin: auto;
+color: #000;
+font-family:"Roboto";
+font-size: 20px;
+line-height: 30px;
+margin-top: 40px;
+width: 795px;
+line-height: 1.5 }
+
+.comearrivare 
+{color: #387B64;
+text-align: center;
+font-size: 30px;
+font-weight: normal;
+margin-top: 103px;
+font-family: "Roboto";}
+
+.indirizzo
+{justify-content: center;
+margin: 340px 200px 0 305px;
+color: #000;
+font-family: "Roboto";
+font-size: 20px;
+line-height: 30px;
+margin-top: 40px;
+width: 795px;
+color: #000;
+text-align: center;
+font-family:"Roboto";
+font-size: 20px;
+font-weight: 400;
+}
+
+.laboratoriobambini
+{color: #387B64;
+text-align: center;
+font-size: 30px;
+font-weight: normal;
+margin-top: 103px;
+font-family:"Roboto";
+}
+
+.testolaboratorio
+{justify-content: center;
+margin: 340px 200px 0 305px;
+color: #000;
+font-family: "Roboto";
+font-size: 20px;
+line-height: 30px;
+margin-top: 40px;
+width: 795px;}
+
+
+
+.artista h1
+{color: #387B64;
+text-align: center;
+font-size: 40px;
+font-weight: 400;
+margin-top: 103px;
+font-family: "Roboto";
+line-height: normal;}
+.immartistauno {
+width: 283px;
+height: 401px;
+}
+
+.artista {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+column-gap:0px;
+font-family: "Roboto";
+}
+
+.cartella {
+    margin-left: 240px;
+    width: 424px;
+height: 289px;
+flex-shrink: 0;
+}
+
+.cartella h1
+{
+   margin-bottom: 20px;
+}
+
+.immartistauno {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+@media (max-width: 600px) {
+
+
+.artisticonfoto {
+
+    grid-template-columns: 1fr;
+    width: 300px;
+    margin: auto;
+    row-gap: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.artisticonfoto div {
+    margin: auto;
+}
+header nav ul {
+flex-direction: column;
+gap: 0;
+}
+}
+
+
+
+
